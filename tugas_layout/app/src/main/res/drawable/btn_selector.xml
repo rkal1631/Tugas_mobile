@@ -1,0 +1,27 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- State aktif -->
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="12dp"/>
+            <solid android:color="#2196F3"/> <!-- biru muda -->
+        </shape>
+    </item>
+
+    <!-- State ditekan -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="12dp"/>
+            <solid android:color="#1565C0"/> <!-- biru tua -->
+        </shape>
+    </item>
+
+    <!-- Default -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="12dp"/>
+            <solid android:color="#9E9E9E"/> <!-- abu-abu -->
+        </shape>
+    </item>
+
+</selector>
